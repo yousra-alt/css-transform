@@ -28,9 +28,6 @@ footer {
 
 .redBox {
     background-color: #ff1d00;
-    /* transform-origin: 20% 40%; */
-    rotate: 35deg;
-    translate: 100px 20px;
 }
 
 .yellowBox {
