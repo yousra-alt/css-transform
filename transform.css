@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+header,
+main,
+footer {
+    background-color: #eee;
+    margin-bottom: 1%;
+    padding: 2%;
+}
+
+.box {
+    width: 10%;
+    aspect-ratio: 1/1;
+    padding: 1%;
+    margin: 0.3%;
+}
+
+#container {
+    position: relative;
+    border: 3px red dashed;
+    width: 100%;
+    aspect-ratio: 10/9;
+}
+
+/* SKRIV KUN KODE HERUNDER */
+
+.redBox {
+    background-color: #ff1d00;
+    /* transform-origin: 20% 40%; */
+    rotate: 35deg;
+    translate: 100px 20px;
+}
+
+.yellowBox {
+    background-color: #ffeb00;
+}
+
+.pinkBox {
+    background-color: #ff9ecf;
+}
+
+.greenBox {
+    background-color: #1fd81f;
+}
+
+.blueBox {
+    background-color: #0180fc;
+}
