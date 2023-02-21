@@ -1,47 +1,58 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 header,
 main,
 footer {
-    background-color: #eee;
-    margin-bottom: 1%;
-    padding: 2%;
+  background-color: #eee;
+  margin-bottom: 1%;
+  padding: 2%;
 }
 
 .box {
-    width: 10%;
-    aspect-ratio: 1/1;
-    padding: 1%;
-    margin: 0.3%;
+  width: 10%;
+  aspect-ratio: 1/1;
+  padding: 1%;
+  margin: 0.3%;
+  position: absolute;
+  /* nedstående fortæller at det elementerne skal rykkes i midten */
+  translate: 200% 100%;
+  /* nedstående fortæller, at omdrejningspunktet skal være fra midt af siden for dem alle. */
+  transform-origin: 0% 100%;
 }
 
 #container {
-    position: relative;
-    border: 3px red dashed;
-    width: 100%;
-    aspect-ratio: 10/9;
+  position: relative;
+  border: 3px red dashed;
+  width: 100%;
+  aspect-ratio: 10/9;
 }
 
 /* SKRIV KUN KODE HERUNDER */
 
 .redBox {
-    background-color: #ff1d00;
+  background-color: #ff1d00;
+  /* scale: 1.5;  --> gør det skøre*/
+  transform: rotate(360deg);
 }
 
 .yellowBox {
-    background-color: #ffeb00;
+  background-color: #ffeb00;
+  transform: rotate(288deg);
 }
 
 .pinkBox {
-    background-color: #ff9ecf;
+  background-color: #ff9ecf;
+  transform: rotate(216deg);
 }
 
 .greenBox {
-    background-color: #1fd81f;
+  background-color: #1fd81f;
+  transform: rotate(144deg);
 }
 
 .blueBox {
-    background-color: #0180fc;
+  background-color: #0180fc;
+  transform: rotate(72deg);
 }
